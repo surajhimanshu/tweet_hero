@@ -1,0 +1,249 @@
+.placeholder {
+    width: 276px;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu {
+    width: 276px;
+    height: 100vh;
+    padding: 1px 12px;
+    box-sizing: border-box;
+    border-right: 1px solid #38444E;
+    position: fixed;
+}
+
+.bird {
+    height: 35px;
+    width: 35px;
+    padding: 8.5px;
+    border-radius: 50%;
+    color: white;
+    transition-duration: .2s;
+}
+
+.bird:hover {
+    background-color: rgba(255, 255, 255, .1);
+}
+
+.navigation>li {
+    list-style: none;
+    height: 58.25px;
+    padding: 4px 0px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+i {
+    font-size: 28px;
+    position: relative;
+    top: 8px;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menuOption {
+    width: fit-content;
+    padding: 0px 12px 6px;
+    border-radius: 30px;
+    line-height: 42px;
+    letter-spacing: .5px;
+    transition-duration: .2s;
+}
+
+.navigation>li:hover>.more, .navigation>li:hover>.link>.menuOption {
+    background-color: rgba(255, 255, 255, .1);
+}
+
+.tweetIcon {
+    display: none;
+}
+
+.tweetButton {
+    background-color: rgb(29, 155, 240);
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    color: inherit;
+    font-size: 18px;
+    margin-top: 20px;
+    height: 52px;
+    width: 226px;
+    cursor: pointer;
+    transition-duration: .2s;
+}
+
+.tweetButton:hover {
+    background-color: rgb(26, 140, 216);
+}
+
+.more {
+    padding: 0px 12px 6px;
+    width: fit-content;
+    border-radius: 30px;
+    letter-spacing: .5px;
+    line-height: 42px;
+    transition-duration: .2s;
+}
+
+.more>i {
+    font-size: 24px;
+    top: 6px;
+}
+
+.profiles {
+    box-sizing: border-box;
+    padding: 6px 12px;
+    position: absolute;
+    display: flex;
+    gap: 10px;
+    bottom: 16px;
+    width: fit-content;
+    height: 54px;
+    border-radius: 34px;
+    cursor: pointer;
+    transition-duration: .2s;
+    /* outline: 1px solid red; */
+}
+
+.profileName {
+    font-size: 15px;
+    font-weight: bold;
+}
+.profileUserName {
+    font-size: 14px;
+    color: rgb(136, 153, 166);
+}
+
+.profiles>.avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.profiles:hover {
+    background-color: rgba(255, 255, 255, .1);
+}
+
+.selected {
+    font-weight: bold;
+}
+
+
+
+@media only screen and (max-width:1281px) {
+
+    .placeholder {
+        width: 89px;
+    }
+
+    .menu {
+        width: 80px;
+        padding-top: 2px;
+        padding-right: 18px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .menuOption {
+        padding: 0px;
+        width: 50px;
+        height: 50px;
+    }
+
+    i {
+        top: 8px;
+        left: 10px;
+    }
+
+    .navigation {
+        width: fit-content;
+    }
+
+    .navigation>li {
+        width: fit-content;
+    }
+
+    .menuOptionName {
+        display: none;
+    }
+
+    .profiles {
+        height: fit-content;
+        bottom: 26px;
+        padding: 0px;
+    }
+
+    .more {
+        padding: 0px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .more>i {
+        left: 12px;
+    }
+
+    .tweetButton {
+        width: 52px;
+    }
+
+    .tweetIcon {
+        display: inline;
+        margin-top: 6px;
+        margin-left: 2px;
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width:1094px) {
+    .placeholder {
+        width: 99px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .placeholder, .menu {
+        max-width: 77px;
+    }
+}
+
+@media only screen and (max-width: 499px) {
+    .placeholder {
+        width: 0px;
+    }
+
+    .menu {
+        width: 0px;
+        padding: 0px;
+        right: 0%;
+    }
+
+    .bird, .navMore, .profiles, .navBookmarks, .navLists, .navProfile {
+        display: none;
+    }
+
+    .navigation {
+        position: absolute;
+        display: flex;
+        justify-content: space-around;
+        z-index: 100;
+        background-color: #15202B;
+        width: 100vw;
+        bottom: 0px;
+    }
+
+    .tweetButton {
+        position: absolute;
+        bottom: 75px;
+        right: 20px;
+        height: 56px;
+        width: 56px;
+        z-index: 100;
+    }
+}

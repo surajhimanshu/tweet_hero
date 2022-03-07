@@ -1,0 +1,29 @@
+.component{
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 500px;
+}
+
+
+
+
+
+
+
+
+
+.part{
+    display: flex;    
+}
+.account{
+    display: flex;
+    flex-direction:column ;
+    gap: -40px;
+}
+
+.part div .icon{
+    color: grey;
+   
+}

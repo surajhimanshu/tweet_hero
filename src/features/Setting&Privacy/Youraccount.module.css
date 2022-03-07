@@ -1,0 +1,52 @@
+.body {
+    padding: 10px;
+}
+
+.icon {
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.youraccount {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.top {
+    margin-top: 7px;
+}
+
+.p {
+    margin-top: -25px;
+    font-size: small;
+    color: grey;
+}
+
+.part {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition-duration: .2s;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+
+.part:hover {
+    background-color: #2e4257    ;
+}
+
+
+.mid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@media only screen and (min-width: 992px) {
+    .top {
+        display: none;
+    }
+}

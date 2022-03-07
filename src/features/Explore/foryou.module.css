@@ -1,0 +1,24 @@
+
+.imgContent_container{
+    width: 100%;
+    position: relative;
+}
+.imgContent_container img{
+    width: 100%;
+}
+.content_container{
+    position: absolute;
+    left: 4%;
+    bottom: 5%;
+    color: white;
+    font-size: 0.9em;
+
+}
+.content_container_title{
+    font-size: 0.8em;
+    margin-bottom: 7px;
+}
+
+.content_container_para{
+    font-weight: 800;
+}

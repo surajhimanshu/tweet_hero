@@ -1,0 +1,124 @@
+.profile_wrapper {
+    /* width: 450px; */
+    margin: auto;
+    position: relative;
+    /* border:0.5px solid rgb(220, 210, 210); */
+    /* box-shadow: 1px 1px #888888; */
+}
+
+.backarrow {
+    cursor: pointer;
+    margin-left: 82%;
+    margin-top: 55%;
+}
+
+.profile_title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+
+.profile_image_container {
+    position: relative;
+    margin-bottom: 65px;
+}
+
+.back_cover_container img {
+    width: 100%;
+    height: 140px;
+    border: none;
+    outline: none;
+}
+
+.profile_image img {
+    position: absolute;
+    outline: none;
+    border: none;
+    border: 5px solid white;
+    border-radius: 50%;
+    top: 50%;
+    left: 4%;
+    width: 20%;
+}
+
+.descript_container {
+    margin-left: 3%;
+}
+
+.profile_name {
+    font-weight: 900;
+    margin-bottom: 2px;
+}
+
+.location_container {
+    display: flex;
+    font-size: 0.85em;
+   
+}
+
+.joined {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: rgb(83, 100, 113);
+}
+
+.follower {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    /* border: 1px solid red; */
+    padding-bottom: 0%;
+}
+
+.follower_cotainer {
+    align-items: center;
+}
+
+.focolor {
+    color: rgb(83, 100, 113);
+    font-size: 0.9em;
+}
+
+.tweets_button_wrapper button{
+    color: white;
+    font-size: 1.05em;
+}
+
+/* Extra small devices (phones, 600px and down) */
+/* this is for whole container */
+@media only screen and (max-width: 400px) {
+    .profile_wrapper {
+        width: 100%
+    }
+
+    .profile_image_container {
+
+        margin-bottom: 50px;
+    }
+}
+
+.tweets_button_wrapper {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 500;
+}
+
+.tweets_button_wrapper>button {
+    cursor: pointer;
+    color: rgb(216, 224, 230);
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding-bottom: 7px;
+
+}
+
+.tweets_button_wrapper>button:focus {
+    color: rgba(238, 240, 242, 0.824);
+    border-bottom: 3.5px solid #008abe;
+    font-weight: bold;
+}

@@ -1,0 +1,163 @@
+
+.twittersignup {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    
+    gap: 20px;
+}
+
+.twittersignup .leftchidiya img {
+    width: 60vw;  
+}
+.twittersignup .rightchidiya img {
+   
+    height: 50px;
+}
+
+.twittersignup .sociallogin {
+    border: 1px solid silver;
+    border-radius: 30px;
+    padding: 8px 10px;
+    margin: 10px 10px 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 60%;
+    font-size: 18px;
+    
+}
+.twittersignup .sociallogin1 {
+    border: 1px solid silver;
+    border-radius: 30px;
+    padding: 8px 10px;
+    margin: 10px 10px 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    width: 60%;
+    font-weight: 500;
+    font-size: 18px;
+}
+/* .twittersignup .sociallogin1:hover{
+    background-color: #d7e1e9; 
+    cursor: pointer;
+ } */
+
+.twittersignup .sociallogin2 {
+    border: 1px solid silver;
+    background-color: #1C98EB;
+    color: white;
+    border-radius: 30px;
+    padding: 8px 10px;
+    margin: 10px 10px 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    font-weight: 500;
+    font-size: 18px;
+    width: 60%;
+    cursor: pointer;
+}
+
+
+.twittersignup .handle {
+    font-size: 15px;
+}
+
+
+.happening {
+    font-size: 64px;
+}
+
+.join {
+    font-size: 31px;
+}
+
+.conditions {
+    font-size: x-small;
+    width: 60%;
+    color:  grey;
+}
+
+.conditions span {
+    color: #1C98EB;
+}
+.conditions span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.twittersignup .login {
+    border: 1px solid silver;
+    color: #1C98EB;
+    border-radius: 30px;
+    padding: 8px 10px;
+    margin: 10px 10px 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    font-weight: 500;
+    font-size: 18px;
+    width: 60%;
+}
+
+.twittersignup .login:hover{
+   background-color: #d7e1e9; 
+   cursor: pointer;
+}
+
+.twittersignup .already {
+
+    font-size: 17px;
+    font-weight: 900;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.links {
+    font-size: 13px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.links a {
+    text-decoration: none;
+    color: silver;
+    
+}
+.or{
+    width: 63%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+   
+}
+.hr{
+    width: 100%;
+   color: #d7e1e9;
+   opacity: .2;
+}
+
+
+/* Medium devices (landscape tablets, 768px and up)  */
+@media only screen and (max-width: 1094px) {
+    .twittersignup{
+        flex-direction: column-reverse;
+        /* justify-content: center; */
+        align-items: center;
+    }
+    .twittersignup .leftchidiya img {
+        width: 100vw;  
+    }
+    
+
+}

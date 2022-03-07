@@ -1,0 +1,30 @@
+
+.heading{
+    display: flex;
+    align-items: center;
+     gap: 40px;
+}
+.first{
+    padding: 10px;
+}
+.card{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.value{
+    font-size: small;
+    color: grey;
+}
+.name{
+    font-size: 15px;
+}
+.card:hover{
+    background-color: #2e4257;
+    cursor: pointer;
+}
+.one:hover{
+    
+    background-color: #2e4257;
+}
